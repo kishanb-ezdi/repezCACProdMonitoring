@@ -114,7 +114,7 @@ public class CheckingReceiverChargeFiles extends Thread {
 						+ "<p>Please do not reply to this email</p>";
 				
 				System.out.println(emailcontent);
-				boolean emailsent = UtilityClass.Sendemail(emailcontent);
+				//boolean emailsent = UtilityClass.Sendemail(emailcontent);
 
 			}
 
