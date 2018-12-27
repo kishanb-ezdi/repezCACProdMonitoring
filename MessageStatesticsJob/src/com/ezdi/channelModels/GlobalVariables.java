@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class GlobalVariables {
 
 	
-	public final static String emailusername = "kishan.bheemajiyani@gmail.com";
+	public final static String emailusername = "";
 	public final static String emailpassword = "";
 	
 	

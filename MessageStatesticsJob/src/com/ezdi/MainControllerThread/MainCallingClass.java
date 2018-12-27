@@ -10,12 +10,12 @@ public class MainCallingClass {
 		// TODO Auto-generated method stub
 		try {
 			
-			Thread thread = new CheckingReceiverChargeFiles();
-			thread.run();
+			/*Thread thread = new CheckingReceiverChargeFiles();
+			thread.run();*/
 			
 			
-			Thread thread2 = new ProductionDBHealthcCheck();
-			thread2.run();
+			/*Thread thread2 = new ProductionDBHealthcCheck();
+			thread2.run();*/
 			
 			Thread thread3 = new StagingDBHealthcCheck();
 			thread3.run();
